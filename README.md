@@ -2,6 +2,24 @@
 
 A collection of autonomous AI agents built using the **Google Antigravity SDK** and Python. 
 
+---
+
+## 🎨 Interactive Visual Dashboard
+
+To help non-technical users understand how these agents function behind the scenes, we have built a beautiful, fully interactive **Visual Dashboard** showcasing simulations of each agent's execution process.
+
+![Dashboard Simulation Demo](assets/demo.webp)
+
+### How to Launch the Dashboard
+You can run a local server to view the dashboard in your web browser:
+
+```bash
+python3 -m http.server --directory dashboard 8000
+```
+Then navigate to **[http://localhost:8000/index.html](http://localhost:8000/index.html)** in your web browser.
+
+---
+
 ## Agent Types
 
 1. **Single-Agent (`src/single_agent.py`)**: A simple conversational agent demonstrating token streaming and reasoning (thoughts) retrieval.
