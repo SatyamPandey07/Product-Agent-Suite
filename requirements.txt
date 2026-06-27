@@ -1,0 +1,4 @@
+google-antigravity
+python-dotenv
+mcp
+playwright

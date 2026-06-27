@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+test.whl
+extracted_whl/
+.env
+.DS_Store
