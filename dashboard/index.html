@@ -101,6 +101,10 @@
                     </div>
                 </div>
                 <div class="topbar-right">
+                    <div class="api-key-container">
+                        <i class='bx bx-key api-key-icon'></i>
+                        <input type="password" id="global-api-key" placeholder="Gemini API Key (Optional)...">
+                    </div>
                     <span class="status-badge"><span class="pulse-dot"></span> Ready to Simulate</span>
                 </div>
             </header>
@@ -127,10 +131,11 @@
                             </div>
                             <div class="chat-interface" id="single-chat">
                                 <div class="chat-log" id="single-chat-log">
-                                    <div class="chat-message user-message">
-                                        <div class="avatar"><i class='bx bx-user'></i></div>
-                                        <div class="message-bubble">Why is the sky blue? Answer in one sentence.</div>
-                                    </div>
+                                    <!-- Messages added dynamically -->
+                                </div>
+                                <div class="chat-input-area">
+                                    <input type="text" class="chat-input" id="single-input" placeholder="Type a custom question..." value="Why is the sky blue? Answer in one sentence.">
+                                    <button class="btn-send" id="single-send-btn"><i class='bx bx-send'></i></button>
                                 </div>
                             </div>
                         </div>
@@ -166,10 +171,11 @@
                             </div>
                             <div class="chat-interface" id="multi-chat">
                                 <div class="chat-log" id="multi-chat-log">
-                                    <div class="chat-message user-message">
-                                        <div class="avatar"><i class='bx bx-user'></i></div>
-                                        <div class="message-bubble">I need a marketing blog post for my new AI startup. Create a content strategy and draft the post.</div>
-                                    </div>
+                                    <!-- Messages added dynamically -->
+                                </div>
+                                <div class="chat-input-area">
+                                    <input type="text" class="chat-input" id="multi-input" placeholder="Type a topic or task..." value="I need a marketing blog post for my new AI startup. Create a content strategy and draft the post.">
+                                    <button class="btn-send" id="multi-send-btn"><i class='bx bx-send'></i></button>
                                 </div>
                             </div>
                         </div>
@@ -204,10 +210,11 @@
                             </div>
                             <div class="chat-interface" id="mcp-chat">
                                 <div class="chat-log" id="mcp-chat-log">
-                                    <div class="chat-message user-message">
-                                        <div class="avatar"><i class='bx bx-user'></i></div>
-                                        <div class="message-bubble">We have a product priced at $150 costing $85 to build. Use custom tools to calculate gross profit margin and generate a SKU.</div>
-                                    </div>
+                                    <!-- Messages added dynamically -->
+                                </div>
+                                <div class="chat-input-area">
+                                    <input type="text" class="chat-input" id="mcp-input" placeholder="Type price and cost details..." value="We have a product priced at $150 costing $85 to build. Use custom tools to calculate gross profit margin and generate a SKU.">
+                                    <button class="btn-send" id="mcp-send-btn"><i class='bx bx-send'></i></button>
                                 </div>
                             </div>
                         </div>
@@ -242,10 +249,11 @@
                             </div>
                             <div class="chat-interface" id="browser-chat">
                                 <div class="chat-log" id="browser-chat-log">
-                                    <div class="chat-message user-message">
-                                        <div class="avatar"><i class='bx bx-user'></i></div>
-                                        <div class="message-bubble">Navigate to https://example.com and summarize its contents.</div>
-                                    </div>
+                                    <!-- Messages added dynamically -->
+                                </div>
+                                <div class="chat-input-area">
+                                    <input type="text" class="chat-input" id="browser-input" placeholder="Type a website URL to navigate..." value="Navigate to https://example.com and summarize its contents.">
+                                    <button class="btn-send" id="browser-send-btn"><i class='bx bx-send'></i></button>
                                 </div>
                             </div>
                         </div>
