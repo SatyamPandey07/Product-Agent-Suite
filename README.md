@@ -1,6 +1,6 @@
 # Product Agent Suite
 
-A collection of autonomous AI agents built using the **Google Antigravity SDK** and Python. 
+A collection of autonomous AI agents built using the **Google SDK** and Python. 
 
 ---
 
